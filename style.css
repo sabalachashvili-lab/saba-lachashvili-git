@@ -125,6 +125,17 @@ h2 {
   color: #42634a;
 }
 
+.site-footer {
+  padding: 20px 0;
+  border-top: 1px solid #dfe5dc;
+  color: #657168;
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
 @media (max-width: 560px) {
   body {
     padding: 0 20px;
