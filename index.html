@@ -7,11 +7,44 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>საბა ლაჩაშვილი</h1>
-  <p>გამარჯობა! ეს ჩემი პორტფოლიოა.</p>
-  <h2>ჩემ შესახებ</h2>
-  <p>ვებდეველოპმენტით დაინტერესებული დამწყები.</p>
-  <h2>კონტაქტი</h2>
-  <p><a href="mailto:sabalachashvili@gmail.com">მომწერე</a></p>
+  <header class="site-header">
+    <a class="brand" href="#home">საბა ლაჩაშვილი</a>
+    <nav aria-label="მთავარი ნავიგაცია">
+      <a href="#about">ჩემ შესახებ</a>
+      <a href="#projects">პროექტები</a>
+      <a href="#contact">კონტაქტი</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="intro-title">
+      <p class="eyebrow">პირადი პორტფოლიო</p>
+      <h1 id="intro-title">გამარჯობა, მე ვარ საბა.</h1>
+      <p class="hero-copy">ვებდეველოპმენტით დაინტერესებული დამწყები, რომელიც ქმნის მარტივ და მოსახერხებელ ვებგვერდებს.</p>
+      <a class="button" href="#projects">ჩემი ნამუშევრები</a>
+    </section>
+
+    <section class="content-section" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">ჩემ შესახებ</p>
+      <h2 id="about-title">ვქმნი და ვსწავლობ</h2>
+      <p>ვებდეველოპმენტს HTML-ისა და CSS-ის საფუძვლებით ვსწავლობ. მაინტერესებს სუფთა დიზაინი, ხელმისაწვდომობა და ვებტექნოლოგიების განვითარება.</p>
+    </section>
+
+    <section class="content-section" id="projects" aria-labelledby="projects-title">
+      <p class="eyebrow">პროექტები</p>
+      <h2 id="projects-title">ჩემი ნამუშევრები</h2>
+      <article class="project-card">
+        <h3>პირადი პორტფოლიო</h3>
+        <p>ადაპტირებადი პორტფოლიოს ვებგვერდი, შექმნილი HTML-ითა და CSS-ით.</p>
+      </article>
+    </section>
+
+    <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">კონტაქტი</p>
+      <h2 id="contact-title">მოდი, დავუკავშირდეთ</h2>
+      <p>მომწერეთ შეკითხვების ან თანამშრომლობის იდეებისთვის.</p>
+      <a href="mailto:sabalachashvili@gmail.com">sabalachashvili@gmail.com</a>
+    </section>
+  </main>
 </body>
 </html>
