@@ -121,7 +121,7 @@ h2 {
   margin-bottom: 48px;
 }
 
-.contact-section a {
+.contact-section a:not(.button) {
   color: #42634a;
 }
 
